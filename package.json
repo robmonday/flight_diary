@@ -1,0 +1,35 @@
+{
+  "name": "flight_diary",
+  "version": "1.0.0",
+  "description": "Ilari loves flying small planes but has a difficult time managing his flight history. He is a coder himself, so he doesn't necessarily need a user interface, but he'd like to use some custom software with HTTP requests and retain the possibility of later adding a web-based user interface to the application.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "eslint --ext .ts .",
+    "start": "node build/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robmonday/flight_diaries.git"
+  },
+  "author": "Rob M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robmonday/flight_diaries/issues"
+  },
+  "homepage": "https://github.com/robmonday/flight_diaries#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.34.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
