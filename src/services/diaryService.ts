@@ -1,11 +1,9 @@
 import diaryData from '../../data/diaries';
+const diaries: DiaryEntry[] = diaryData;
 
 import { NewDiaryEntry, DiaryEntry, NonSensitiveDiaryEntry } from '../types';
 
-const diaries: DiaryEntry[] = diaryData;
-
 const getEntries = (): DiaryEntry[] => {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return diaries;
 };
 
